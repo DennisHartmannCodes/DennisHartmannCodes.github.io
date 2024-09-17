@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Research assistant in the Institute for Gravitation and the Cosmos and the Department of Astronomy and Astrophysics.
 
 profile:
   align: right
