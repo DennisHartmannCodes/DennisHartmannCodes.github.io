@@ -1,7 +1,7 @@
 ---
 layout: about
-title: theoretical research
-permalink: /
+title: theory
+permalink: /theory/
 subtitle: Research assistant in the Institute for Gravitation and the Cosmos
 nav: true
 nav_order: 3

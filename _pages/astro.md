@@ -1,7 +1,7 @@
 ---
 layout: about
-title: experimental astronomy research
-permalink: /
+title: astronomy
+permalink: /astro/
 subtitle: Research assistant in the Department of Astronomy and Astrophysics
 nav: true
 nav_order: 4
