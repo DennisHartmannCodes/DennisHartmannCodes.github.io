@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: theoretical research
 permalink: /
 subtitle: Research assistant in the Institute for Gravitation and the Cosmos

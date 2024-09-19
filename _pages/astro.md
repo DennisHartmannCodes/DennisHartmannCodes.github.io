@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: experimental astronomy research
 permalink: /
 subtitle: Research assistant in the Department of Astronomy and Astrophysics
@@ -17,7 +17,7 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 nav: true
-nav_order: 3=4
+nav_order: 4
 ---
 
 
