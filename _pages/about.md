@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /about/
+permalink: /
 subtitle: Research assistant in the Institute for Gravitation and the Cosmos and the Department of Astronomy and Astrophysics.
 
 profile:
