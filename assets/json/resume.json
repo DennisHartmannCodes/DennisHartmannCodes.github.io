@@ -5,7 +5,7 @@
     "image": "",
     "email": "dennis.hartmann@psu.edu",
     "url": "https://dennishartmanncodes.github.io",
-    "summary": "Mexican-born German physics student interested in the quantum nature of graivty and working in the Penn State XRay detector astronomy lab",
+    "summary": "Mexican-born German physics student interested in the quantum nature of gravity and working in the Penn State XRay detector astronomy lab",
     "location": {
       "address": "Whitmore Laboratory",
       "postalCode": "PA 16803",
@@ -39,6 +39,33 @@
       "endDate": "present",
       "summary": "Various laboratory projects to aid in the calibration and characterization of XRay Hybrid CMOS detectors to be used for the NASA BlackCAT Mission",
       "highlights": ["HCDS, Hybrid CMOS Detectors, NASA, BlackCAT, AGN"]
+    },
+    {
+      "name": "Institute for Gravitation and the Cosmos, Penn State University",
+      "position": "Undergraduate Research assistant for Dr. Martin Bojowald",
+      "url": "https://igc.psu.edu/people/bio/dkh5453/",
+      "startDate": "2022-11-21",
+      "endDate": "2024-03-01",
+      "summary": "Studied the emergent modified gravity (EMG) and how it can be used to study signature changes in the metric, and effect that should be present in loop quantum gravity, but possible on universal scale as proposed in our paper. Further studied casusal dynamical triangulations (CDT) using a Lorentzian signature",
+      "highlights": ["Emergent Modified Gravity, CDT, LQG, LQC"]
+    },
+    {
+      "name": "Institute for Gravitation and the Cosmos, Penn State University",
+      "position": "Undergraduate Research assistant for Jackson Henry and Dr. Sarah Shandera",
+      "url": "https://igc.psu.edu/people/bio/dkh5453/",
+      "startDate": "2022-11-21",
+      "endDate": "2023-03-01",
+      "summary": "Characterized the interactions between qubits in thermalizing open quantum systems by understanding properties such as their connectivities",
+      "highlights": ["Open Quantum Systems, Qubits"]
+    },
+    {
+      "name": "Laboratory for Research on the Structure of Matter, University of Pennsylvania",
+      "position": "NSF REU student for Dr. Andrea Liu",
+      "url": "https://www.lrsm.upenn.edu",
+      "startDate": "2022-05-23",
+      "endDate": "2024-08-06",
+      "summary": "",
+      "highlights": ["Learning Metamaterials"]
     }
   ],
   "volunteer": [
