@@ -1,18 +1,17 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Dennis Hartmann",
+    "position": "Research asisstant in quantum graivty and experimental XRay detectors",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "dennis.hartmann@psu.edu",
+    "url": "https://dennishartmanncodes.github.io",
+    "summary": "Mexican-born German physics student interested in the quantum nature of graivty and working in the Penn State XRay detector astronomy lab",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "Whitmore Laboratory",
+      "postalCode": "PA 16803",
+      "city": "State College",
       "countryCode": "US",
-      "region": "California"
+      "region": "Pennsylvania"
     },
     "profiles": [
       {
@@ -24,13 +23,22 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Institute for Gravitation and the Cosmos, Penn State University",
+      "position": "PostBac Research assistant for Dr. Martin Bojowald",
+      "url": "https://igc.psu.edu/people/bio/dkh5453/",
+      "startDate": "2024-03-01",
+      "endDate": "present",
+      "summary": "Studying various approaches to quantum gravity such as causal dynamical triangulations (CDT), asymptotic safety, and studies of the covariance of models from loop quantum gravity (LQG)",
+      "highlights": ["Emergent Modified Gravity, CDT, Asymptotic Safety, LQG, LQC"]
+    },
+    {
+      "name": "Department of Astronomy and Astrophysics, Penn State University",
+      "position": "PostBac Research assistant for Dr. Abe Falcone",
+      "url": "https://sites.psu.edu/headilab/about-us/",
+      "startDate": "2024-07-01",
+      "endDate": "present",
+      "summary": "Various laboratory projects to aid in the calibration and characterization of XRay Hybrid CMOS detectors to be used for the NASA BlackCAT Mission",
+      "highlights": ["HCDS, Hybrid CMOS Detectors, NASA, BlackCAT, AGN"]
     }
   ],
   "volunteer": [
