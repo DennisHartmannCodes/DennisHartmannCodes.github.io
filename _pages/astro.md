@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: astronomy
 permalink: /astro/
 subtitle: Research assistant in the Department of Astronomy and Astrophysics
