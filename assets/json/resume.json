@@ -48,7 +48,7 @@
       "name": "Institute for Gravitation and the Cosmos, Penn State University",
       "position": "Undergraduate Research assistant for Dr. Martin Bojowald",
       "url": "https://igc.psu.edu/people/bio/dkh5453/",
-      "startDate": "2022-11-21",
+      "startDate": "2022-12-21",
       "endDate": "2024-03-01",
       "summary": "Studied the emergent modified gravity (EMG) and how it can be used to study signature changes in the metric, and effect that should be present in loop quantum gravity, but possible on universal scale as proposed in our paper. Further studied casusal dynamical triangulations (CDT) using a Lorentzian signature",
       "highlights": [
@@ -59,7 +59,7 @@
       "name": "Institute for Gravitation and the Cosmos, Penn State University",
       "position": "Undergraduate Research assistant for Dr. Jackson Henry and Dr. Sarah Shandera",
       "url": "https://igc.psu.edu/people/bio/dkh5453/",
-      "startDate": "2022-12-30",
+      "startDate": "2022-11-30",
       "endDate": "2023-03-01",
       "summary": "Characterized the interactions between qubits in thermalizing open quantum systems by understanding properties such as their connectivities",
       "highlights": [
@@ -105,17 +105,13 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
+      "institution": "Pennsylvania State University",
+      "location": "Pennsylvania, United States",
       "url": "https://www.uzh.ch/",
       "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "studyType": "Ba Physics + Mathematics",
+      "startDate": "2020-07-01",
+      "endDate": "2024-04-25"
     }
   ],
   "awards": [
@@ -217,6 +213,11 @@
     },
     {
       "language": "English",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "Spanish",
       "fluency": "Fluent",
       "icon": ""
     }
