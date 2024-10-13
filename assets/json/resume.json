@@ -88,7 +88,7 @@
       ]
     }
   ],
-  "volunteering": [
+  "volunteer": [
     {
       "organization": "President of the Society of Physics Students (SPS)",
       "location": "Penn State",
@@ -146,7 +146,8 @@
       "studyType": "Ba Physics",
       "startDate": "2020-07-01",
       "endDate": "2024-04-25"
-    },{
+    },
+    {
       "institution": "Pennsylvania State University",
       "location": "United States",
       "area": "Analysis",
@@ -162,29 +163,35 @@
       "awarder": "Penn State Department of Physics",
       "url": "https://science.psu.edu/physics/undergraduate/awards/david-bohm-award",
       "summary": "The David Bohm Award recognizes “…a graduating senior Physics major who has excelled academically and who has made contributions to Penn State outside the classroom in areas such as research or service to Penn State at the department, College, or University level.”'"
-    },{
+    },
+    {
       "title": "Langhorne Brickwedde Award for Undergraduate Research",
       "date": "2024-04-24",
       "awarder": "Penn State Department of Physics",
       "url": "https://science.psu.edu/physics/undergraduate/awards/brickwedde-award",
       "summary": "The Langhorne Brickwedde Award for Undergraduate Research was established by “friends, colleagues, and the family in honor of Langhorne H. Brickwedde, a member of the College of Science faculty from January 1, 1967, until her retirement July 1, 1974.'"
-    },{
+    },
+    {
       "title": "M. Dean and Jean L. Underwood Scholarship in Physics",
       "date": "2023-08-18",
       "awarder": "Penn State Department of Physics"
-    },{
+    },
+    {
       "title": "George E., Jr. and Elizabeth S. Sperling Tutorial Endowment in Calculus, Physics, Chemistry and Mathematics",
       "date": "2023-06-23",
       "awarder": "Eberly College of Science"
-    },{
+    },
+    {
       "title": "Eberly College of Science Internal Scholarship",
       "date": "2023-03-28",
       "awarder": "Eberly College of Science"
-    },{
+    },
+    {
       "title": "M. Dean and Jean L. Underwood Scholarship in Physics",
       "date": "2022-08-05",
       "awarder": "Penn State Department of Physics"
-    },{
+    },
+    {
       "title": "Dean's list every semester :D",
       "date": "2024-04-25",
       "awarder": "Eberly College of Science"
