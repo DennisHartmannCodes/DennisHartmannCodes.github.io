@@ -21,7 +21,7 @@
       }
     ]
   },
-  "work": [
+  "Research Positions": [
     {
       "name": "Institute for Gravitation and the Cosmos, Penn State University",
       "position": "PostBac Research assistant for Dr. Martin Bojowald",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "name": "Laboratory for Research on the Structure of Matter, University of Pennsylvania",
+      "name": "University of Pennsylvania",
       "position": "NSF REU student for Dr. Andrea Liu",
       "url": "https://www.lrsm.upenn.edu",
       "startDate": "2022-05-23",
@@ -88,19 +88,54 @@
       ]
     }
   ],
-  "volunteer": [
+  "volunteering": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
+      "organization": "President of the Society of Physics Students (SPS)",
+      "location": "Penn State",
+      "position": "President",
       "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "startDate": "2023-08-30",
+      "endDate": "2024-08-30",
+      "summary": "Leader of the Penn State Chapter of the SPS, a national organization charged with providing a home for undergaduate physics majors. Led a team of 5 other officers, interacted with both the leadership of the physics department and the large membership of SPS.",
       "highlights": [
-        "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.",
-        "Men of the year 2014 by Time magazine"
+        "Awarded David Bohm Award"
       ]
+    },
+    {
+      "organization": "Outreach Officer of the Society of Physics Students (SPS)",
+      "location": "Penn State",
+      "position": "Otreach Officer",
+      "url": "https://example.com",
+      "startDate": "2022-08-01",
+      "endDate": "2023-07-01",
+      "summary": "In charge of outreach activities for SPS such as local school visits."
+    },
+    {
+      "organization": "APS Inclusion, Diversity, and Equity Alliance (IDEA)",
+      "location": "Penn State",
+      "position": "Member",
+      "url": "https://example.com",
+      "startDate": "2023-08-01",
+      "endDate": "2024-08-01",
+      "summary": "Part of Penn State's IDEA team, which discussed issues of DEI at Penn State and interacted with the broader IDEA network at other institutions. As the IDEA team was a part of the Climate and Inclusivity committee, the insights would get passed on to them."
+    },
+    {
+      "organization": "PAW PALS",
+      "location": "Penn State",
+      "position": "Logistics Leader",
+      "url": "https://example.com",
+      "startDate": "2022-08-01",
+      "endDate": "2023-07-01",
+      "summary": "In charge of outreach activities for SPS such as local school visits."
+    },
+    {
+      "organization": "PAW+",
+      "location": "Penn State",
+      "position": "Otreach Officer",
+      "url": "https://example.com",
+      "startDate": "present",
+      "endDate": "2024-07-01",
+      "summary": "In charge of outreach activities for PAW+ such as Haunted-U."
     }
   ],
   "education": [
@@ -174,20 +209,6 @@
       "releaseDate": "1905-06-30",
       "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
       "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
   "skills": [
