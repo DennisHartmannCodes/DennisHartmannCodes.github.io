@@ -24,4 +24,4 @@ As of about the first month, I have worked on several vacuum systems, dissasembl
 
 Furthermore, I have done a few CAD projects that have broken off a lot of the rust from my highschool experiences with CAD and 3D printing. Initially, I designed and printed a tube to elevate an LED light off of an instrument panel so that it was visible from the test stand it was located at. This helped the lab comply with federal radiation safety protocols as the light was used to tell the stand operator when XRays were being emitted from an Fe55 source past a shutter. This starting project also let me utilize my long-held passion for soldering. Another version of this LED holder is also used on an instrument panel used on the long cell. (Thermal cad stuff)
 
-<img title="BlackCAT Focal Plane" alt="Alt text" src="/Users/dennishartmann/DennisHartmannCodes.github.io/assets/img/IMG_4623.jpeg">
+<img title="BlackCAT Focal Plane" alt="Alt text" src="assets/img/IMG_4623.jpeg">
