@@ -49,6 +49,11 @@ table.table a {
   }
 }
 
+.rotate-image {
+  transform: rotate(90deg);
+}
+
+
 .table-dark {
   background-color: transparent;
   &.table-bordered {

@@ -9,7 +9,7 @@ profile:
   align: right
   image: IMG_8537.jpeg
   image_circular: True # crops the image to make it circular
-  style: "transform: rotate(90deg);"
+  image_class: "rotate-image" # Add a custom class
   more_info: >
     <p>Whitmore Lab 322 - Institute for Gravitation and the Cosmos</p>
     
