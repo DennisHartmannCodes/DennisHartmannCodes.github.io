@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 profile:
   align: right
-  image: IMG_8537.jpeg
+  image: IMG_8537R.jpeg
   image_circular: True # crops the image to make it circular
   image_class: "rotate-image" # Add a custom class
   more_info: >
