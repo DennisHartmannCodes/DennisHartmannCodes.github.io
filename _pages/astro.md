@@ -26,6 +26,19 @@ Furthermore, I have done a few CAD projects that have broken off a lot of the ru
 
 <img title="BlackCAT Focal Plane" alt="Alt text" src="/assets/img/IMG_4623.jpeg" style="max-width:100%; height:auto; width:550px;">
 
+<style>
+/* Ensure carousel background is transparent */
+.carousel {
+  background-color: transparent !important;
+}
+
+/* Optional: Ensure no padding or margins affect the carousel */
+.carousel-inner, .carousel-item {
+  background-color: transparent !important;
+}
+</style>
+
+
 # Photo Album
 
 <div id="carouselDetector" class="carousel slide" data-bs-ride="carousel">
@@ -40,12 +53,12 @@ Furthermore, I have done a few CAD projects that have broken off a lot of the ru
       <img src="/assets/img/prof_pic.jpeg" class="d-block" alt="Image 3" style="max-width:100%; height:auto; width:550px;">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselDetector" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselDetector" data-bs-slide="prev" style="width: 60px; height: 60px;">
+    <span class="carousel-control-prev-icon" aria-hidden="true" style="width: 40px; height: 40px;"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselDetector" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselDetector" data-bs-slide="next" style="width: 60px; height: 60px;">
+    <span class="carousel-control-next-icon" aria-hidden="true" style="width: 40px; height: 40px;"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
