@@ -26,3 +26,30 @@ Furthermore, I have done a few CAD projects that have broken off a lot of the ru
 
 <img title="BlackCAT Focal Plane" alt="Alt text" src="/assets/img/IMG_4623.jpeg" style="max-width:100%; height:auto; width:550px;">
 
+# Photo Album
+
+<div id="carouselDetector" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/assets/img/IMG_4623.jpeg" class="d-block w-100" alt="Image 1">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/img/Weinberg.jpeg" class="d-block w-100" alt="Image 2">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/img/IMG_4623.jpeg" class="d-block w-100" alt="Image 3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Include Bootstrap CSS and JS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
