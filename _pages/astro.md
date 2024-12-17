@@ -31,20 +31,20 @@ Furthermore, I have done a few CAD projects that have broken off a lot of the ru
 <div id="carouselDetector" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/assets/img/IMG_4623.jpeg" class="d-block w-100" alt="Image 1" style="max-width:100%; height:auto; width:550px;">
+      <img src="/assets/img/IMG_4623.jpeg" class="d-block" alt="Image 1" style="max-width:100%; height:auto; width:550px;">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/Weinberg.jpeg" class="d-block w-100" alt="Image 2" style="max-width:100%; height:auto; width:550px;">
+      <img src="/assets/img/Weinberg.jpg" class="d-block" alt="Image 2" style="max-width:100%; height:auto; width:550px;">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/IMG_4623.jpeg" class="d-block w-100" alt="Image 3" style="max-width:100%; height:auto; width:550px;">
+      <img src="/assets/img/prof_pic.jpeg" class="d-block" alt="Image 3" style="max-width:100%; height:auto; width:550px;">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselDetector" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselDetector" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
