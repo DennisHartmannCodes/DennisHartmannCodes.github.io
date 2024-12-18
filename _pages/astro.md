@@ -7,9 +7,8 @@ nav: true
 nav_order: 4
 profile:
   align: right
-  image: IMG_4634R.jpg
-  image_circular: True # crops the image to make it circular
-  image_class: "rotate-image" # Add a custom class
+  image: IMG_4634.jpg
+  image_circular: True # crops the image to make it circular # Add a custom class
   more_info: >
     <p>Whitmore Lab 322 - Institute for Gravitation and the Cosmos</p>
     
