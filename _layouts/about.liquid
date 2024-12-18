@@ -25,16 +25,11 @@ layout: default
           {% endif %}
           
           {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
-          {%
-            include figure.liquid
-            loading="eager"
-            path=profile_image_path
-            class=profile_image_class
-            style="transform: rotate(90deg); transform-origin: center;"
-            sizes=sizes
-            alt=page.profile.image
-            cache_bust=true
-          %}
+          <img 
+            src="{{ profile_image_path }}" 
+            alt="{{ page.profile.image }}" 
+            class="{{ profile_image_class }}" 
+            style="transform: rotate(90deg); transform-origin: center; max-width: 100%; height: auto;">
         {% endif %}
         
         {% if page.profile.more_info %}
