@@ -1,23 +1,13 @@
 ---
-layout: about
-title: astronomy
+layout: page
 permalink: /astro/
-subtitle: Research assistant in the Department of Astronomy and Astrophysics
+title: astronomy
 nav: true
 nav_order: 4
-profile:
-  align: right
-  image: IMG_4634.jpg
-  image_circular: True # crops the image to make it circular
-  more_info: >
-    <p>Whitmore Lab 322 - Institute for Gravitation and the Cosmos</p>
-    
-    <p>State College, Pennsylvania 16803</p>
-
-news: false # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: true
 ---
+
+
 My work in the department of Astronomy and Astrophysics at Penn State is a relatively new position for me that I am still only in the early phases of. For that reason, this page will be updated frequently with new happenings as they manifest. Later paragraphs will detail my work within the HEADI lab to more and more juicy detail, for now though all I can say is that it has been a fantastic choice to join from a learning perspective. I have been having a great time absorbing as much information as possible regarding various engineering challenges.
 
 As of about the first month, I have worked on several vacuum systems, dissasembling them, putting them back together again. Working on these systems, I have learned how to maintain the parts and put together junctions that are highly resistant to leaks. I have put these skills to the test multiple times when testing vaccum gauges and LN2 sorption pumps, and while working on the "long cell" a vacuum chamber that runs the entire length of Osmond laboratory used for XRay studies.
