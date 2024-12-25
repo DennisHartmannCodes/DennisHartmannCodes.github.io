@@ -8,7 +8,7 @@ selected_papers: true
 ---
 
 <p style="float: right; margin: 0 0 10px 10px;">
-  <img src="/assets/img/IMG_4634.jpg" alt="XHCD Assembly" style="max-width:100%; height:auto; width:300px;">
+  <img src="/assets/img/IMG_4634.jpg" alt="XHCD Assembly" style="max-width:100%; height:auto; width:300px; border-radius: 50%; object-fit: cover;">
 </p>
 
 
