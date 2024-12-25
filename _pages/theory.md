@@ -1,23 +1,15 @@
 ---
-layout: about
-title: theory
+layout: page
 permalink: /theory/
-subtitle: Research assistant in the Institute for Gravitation and the Cosmos
+title: theory
 nav: true
 nav_order: 3
-profile:
-  align: right
-  image: IMG_8537.jpg
-  image_circular: True # crops the image to make it circular
-  more_info: >
-    <p>Whitmore Lab 322 - Institute for Gravitation and the Cosmos</p>
-    
-    <p>State College, Pennsylvania 16803</p>
-
-news: false # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: true
 ---
+
+<p style="float: right; margin: 0 0 10px 10px;">
+  <img src="/assets/img/IMG_8537.jpg" alt="XHCD Assembly" style="max-width:100%; height:auto; width:300px;">
+</p>
 
 My first long term research project outside of my NSF REU at UPenn, and a smaller project on the connectivity of cubits in open quantum systems, was concerned with black holes in Emergent Modified Gravity. Working with Martin Bojowald at Penn State, we noticed that in Emergent Modified Gravity, it is possible for black holes to form a boundary in space where the metric signature goes from Lorentzian to Euclidean. In other words, there is a Lorentzian region of space that acts the way we usually expect General Relativity to behave, and a Euclidean counterpart, where the same intuition becomes more complex.
 
