@@ -8,4 +8,6 @@ import icon from "astro-icon";
 // https://astro.build/config
 export default defineConfig({
   integrations: [mdx(), tailwind(), icon()],
+  site: 'https://DennisHartmannCodes.github.io',
+  base: 'DennisHartmannCodes.github.io',
 });
