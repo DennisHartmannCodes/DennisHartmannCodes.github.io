@@ -1,0 +1,159 @@
+---
+import "../css/IosevkaAile.css";
+import "../css/base.css";
+import type { MarkdownLayoutProps } from "astro";
+import { Icon } from "astro-icon/components";
+
+type Props = MarkdownLayoutProps<{
+  title: string;
+  route: string;
+  navOrder?: number;
+}>;
+
+const { frontmatter } = Astro.props;
+const { title, route } = frontmatter;
+const firstName = "Dennis";
+const lastName = "Hartmann";
+const fullName = `${firstName} ${lastName}`;
+const pages = Object.values(
+  import.meta.glob("../pages/*.{astro,mdx}", { eager: true }),
+) as (typeof Astro.props)[];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{route == "/" ? fullName : `${title} | ${fullName}`}</title>
+    <meta name="author" content={fullName} />
+  </head>
+  <body class="flex min-h-screen flex-col bg-layer-0 text-text">
+    <div id="top" aria-hidden="true"></div>
+    <header
+      class="sticky top-0 border-b-[1px] border-border bg-layer-0 p-4 shadow-sm shadow-shadow"
+    >
+      <div class="m-auto flex max-w-5xl items-center gap-6">
+        {
+          route == "/" ? null : (
+            <a
+              href="/"
+              class="text-xl text-text transition-colors hover:text-link hover:no-underline"
+            >
+              <b>{firstName}</b> {lastName}
+            </a>
+          )
+        }
+        <nav class="flex-auto">
+          <ul class="flex justify-end gap-3">
+            {
+              pages
+                .filter(x => x.frontmatter.navOrder != null)
+                .sort((a, b) => a.frontmatter.navOrder! - b.frontmatter.navOrder!)
+                .map(({ frontmatter }) => (
+                  <li>
+                    <a
+                      href={frontmatter.route}
+                      class:list={[
+                        "text-lg",
+                        "hover:text-accent",
+                        "transition-colors",
+                        "hover:no-underline",
+                        route == frontmatter.route ? "text-accent" : "text-text",
+                      ]}
+                    >
+                      {frontmatter.title.toLowerCase()}
+                    </a>
+                  </li>
+                ))
+            }
+          </ul>
+        </nav>
+        <button id="toggle-theme">
+          <Icon
+            name="lucide:moon"
+            class="hidden size-7 transition-colors hover:text-link dark:block"
+          />
+          <Icon
+            name="lucide:sun"
+            class="block size-7 transition-colors hover:text-link dark:hidden"
+          />
+        </button>
+      </div>
+    </header>
+    <main class="flex-auto p-4">
+      <div class="m-auto max-w-5xl">
+        {
+          route == "/" ? (
+            <h1 class="mb-2">
+              <b>{firstName}</b> {lastName}
+            </h1>
+          ) : (
+            <h1>{title}</h1>
+          )
+        }
+        <slot />
+      </div>
+    </main>
+    <footer class="mt-4 bg-layer-1 p-4">
+      <div class="m-auto max-w-5xl text-center">
+        © Copyright {new Date().getFullYear()}
+        {fullName}. Last updated: {
+          new Date().toLocaleDateString("en-US", {
+            month: "long",
+            day: "numeric",
+            year: "numeric",
+            timeZone: "America/New_York",
+          })
+        }
+      </div>
+    </footer>
+    <a
+      href="#top"
+      id="to-top"
+      aria-hidden="true"
+      class="transition-[visibility, opacity] invisible fixed bottom-6 right-6 flex size-11 items-center justify-center rounded-full bg-accent opacity-0 duration-300 hover:visible hover:scale-125 hover:opacity-100"
+      ><Icon name="lucide:arrow-up" class="size-8 text-white" /></a
+    >
+    <script>
+      const toTop = document.querySelector("#to-top");
+      if (toTop instanceof HTMLElement) {
+        document.addEventListener("scroll", () => {
+          if (toTop.classList.contains("invisible") != (window.scrollY == 0.0)) {
+            toTop.classList.toggle("invisible");
+            toTop.classList.toggle("opacity-0");
+          }
+        });
+      }
+
+      const toggleTheme = document.querySelector("#toggle-theme");
+      if (toggleTheme instanceof HTMLElement) {
+        const stored = localStorage.getItem("prefers-dark");
+        let dark =
+          stored == null
+            ? window.matchMedia("(prefers-color-scheme: dark)").matches
+            : (JSON.parse(stored) as boolean);
+
+        const updateTheme = () => {
+          const classList = document.documentElement.classList;
+          if (dark) {
+            classList.add("dark");
+            classList.remove("light");
+          } else {
+            classList.add("light");
+            classList.remove("dark");
+          }
+          localStorage.setItem("prefers-dark", JSON.stringify(dark));
+        };
+
+        updateTheme();
+        toggleTheme.addEventListener("click", () => {
+          dark = !dark;
+          updateTheme();
+        });
+      }
+    </script>
+  </body>
+</html>

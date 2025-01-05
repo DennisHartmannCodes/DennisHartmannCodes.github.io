@@ -1,0 +1,226 @@
+---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+import Details from "./Details.astro";
+import { Icon } from "astro-icon/components";
+
+type Publication = {
+  id: string;
+  bib: {
+    author: string;
+    title: string;
+    abstract?: string;
+    eprint?: string;
+    archiveprefix?: string;
+    primaryclass?: string;
+    doi?: string;
+    journal?: string;
+    volume?: string;
+    number?: string;
+    pages?: string;
+    year: string;
+  };
+  preview?: string;
+  links?: {
+    arxiv?: string;
+    html?: string;
+    pdf?: string;
+    inspirehepId?: string;
+  };
+  details?: {
+    bib?: boolean;
+    award?: {
+      name?: string;
+      description?: string;
+    };
+  };
+};
+
+type Props = {
+  papers: Publication[];
+};
+
+const { papers } = Astro.props;
+
+papers.sort((a, b) => b.bib.year.localeCompare(a.bib.year));
+
+const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/*.{jpeg,jpg,png,webp}");
+
+const formatBib = (id: string, bib: Publication["bib"]) => {
+  const data = Object.entries(bib)
+    .filter(([k]) => k != "abstract")
+    .map(([k, v]) => `${k} = "${v}"`)
+    .join(",\n    ");
+  return `@article{${id},
+    ${data}
+}`;
+};
+---
+
+<ol class="flex flex-col gap-8">
+  {
+    papers.map(async ({ id, bib, preview, links, details }) => {
+      const image = preview == null ? null : images[`/src/assets/${preview}`];
+      if (image === undefined) {
+        throw new Error(`'${preview}' does not exist in glob: 'src/assets/*.{jpeg,jpg,png,webp}'`);
+      }
+      return (
+        <li>
+          <article class="flex rounded-lg bg-layer-1 p-4">
+            <div class="w-1/4">
+              {image && <Image src={(await image()).default} alt="" width={200} class="rounded" />}
+            </div>
+            <div class="flex w-3/4 flex-col gap-1">
+              <h3 class="mb-0">{bib.title.slice(1, -1)}</h3>
+              <div>{bib.author}</div>
+              <div>
+                {bib.journal && (
+                  <>
+                    <em>{bib.journal}</em>,
+                  </>
+                )}
+                {bib.year}
+              </div>
+              <ul class="flex items-center gap-2">
+                {links?.html && (
+                  <li>
+                    <a
+                      href={links.html}
+                      class="block min-w-12 rounded-sm border-2 border-border p-[6px] text-center text-sm text-text transition-colors hover:border-link hover:text-link hover:no-underline"
+                    >
+                      JOURNAL
+                    </a>
+                  </li>
+                )}
+                {links?.arxiv && (
+                  <li>
+                    <a
+                      href={`http://arxiv.org/abs/${links.arxiv}`}
+                      class="block min-w-12 rounded-sm border-2 border-border p-[6px] text-center text-sm text-text transition-colors hover:border-link hover:text-link hover:no-underline"
+                    >
+                      ARXIV
+                    </a>
+                  </li>
+                )}
+                {links?.pdf && (
+                  <li>
+                    <a
+                      href={`/public/pdf/${links.pdf}`}
+                      class="block min-w-12 rounded-sm border-2 border-border p-[6px] text-center text-sm text-text transition-colors hover:border-link hover:text-link hover:no-underline"
+                    >
+                      PDF
+                    </a>
+                  </li>
+                )}
+                {links?.inspirehepId && (
+                  <li>
+                    <a
+                      data-inspirehep-id={links.inspirehepId}
+                      href={`https://inspirehep.net/literature/${links.inspirehepId}`}
+                      aria-label="INSPIRE HEP"
+                      class="block"
+                    >
+                      <img
+                        src="https://img.shields.io/badge/inspire-ffffff?logo=inspire&logoColor=001628"
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                )}
+              </ul>
+              <div class="mt-2 flex flex-col gap-4">
+                {details?.award && (
+                  <Details>
+                    <Fragment slot="summary">{details.award.name}</Fragment>
+                    {details.award.description}
+                  </Details>
+                )}
+                {bib.abstract && (
+                  <Details>
+                    <Fragment slot="summary">Abstract</Fragment>
+                    {bib.abstract}
+                  </Details>
+                )}
+                {details?.bib && (
+                  <Details>
+                    <Fragment slot="summary">Cite (BibTeX)</Fragment>
+                    <div class="group/copy relative">
+                      {/* prettier-ignore */}
+                      <pre class="overflow-scroll pb-4"><code>{formatBib(id, bib)}</code></pre>
+                      <div
+                        aria-hidden="true"
+                        class="transition-[visibility, opacity] invisible absolute right-0 top-0 flex rounded-md bg-accent p-1 opacity-0 duration-300 hover:scale-125 group-hover/copy:visible group-hover/copy:opacity-100"
+                      >
+                        <button class="copy-bib group/button relative size-8">
+                          <Icon
+                            name="lucide:clipboard-check"
+                            class="invisible absolute left-0 top-0 size-8 bg-accent text-white opacity-0 group-active/button:visible group-active/button:opacity-100"
+                          />
+                          <Icon
+                            name="lucide:clipboard-copy"
+                            class="left-0 top-0 size-8 text-white"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                  </Details>
+                )}
+              </div>
+            </div>
+          </article>
+        </li>
+      );
+    })
+  }
+</ol>
+
+<style>
+  .copy-bib:not(:active) > :first-child {
+    transition: all 1000ms step-end;
+  }
+</style>
+
+<script>
+  for (const button of document.querySelectorAll<HTMLButtonElement>("button.copy-bib")) {
+    button.addEventListener("click", () => {
+      const code = button.parentElement?.previousElementSibling?.firstElementChild;
+      if (code instanceof HTMLElement) {
+        window.navigator.clipboard.writeText(code.innerText);
+      }
+    });
+  }
+
+  const inspireLinks = document.querySelectorAll<HTMLAnchorElement>("a[data-inspirehep-id]");
+  if (inspireLinks.length > 0) {
+    try {
+      const response = await fetch(
+        "https://inspirehep.net/api/literature?q=ea hartmann, dennis&fields=citation_count",
+      );
+      if (!response.ok) {
+        throw new Error(`Failed to fetch inspire data (status ${response.status})`);
+      }
+      const data = await response.json();
+      const papers = data?.hits?.hits;
+      if (papers?.length > 0) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const lookup = new Map<string, Record<string, any>>(papers.map((p: any) => [p.id, p]));
+        for (const a of inspireLinks) {
+          const id = a.dataset.inspirehepId!;
+          const paper = lookup.get(id);
+          if (paper != null) {
+            const citationCount = paper?.metadata?.citation_count;
+            if (citationCount >= 0) {
+              a.ariaLabel = `INSPIRE HEP (${citationCount} citations)`;
+              const img = a.firstElementChild;
+              if (img instanceof HTMLImageElement) {
+                img.src = `https://img.shields.io/badge/inspire-${citationCount}-24d6ff?logo=inspire&logoColor=001628&labelColor=ffffff`;
+              }
+            }
+          }
+        }
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }
+</script>

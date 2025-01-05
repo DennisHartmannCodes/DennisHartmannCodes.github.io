@@ -1,0 +1,86 @@
+[
+  {
+    "id": "Bojowald:2023vvo",
+    "bib": {
+      "title": "{New type of large-scale signature change in emergent modified gravity}",
+      "author": "Bojowald, Martin and Duque, Erick I. and Hartmann, Dennis",
+      "abstract": "Emergent modified gravity presents a new class of gravitational theories in which the structure of space-time with Riemannian geometry of a certain signature is not presupposed. Relying on crucial features of a canonical formulation, the geometry of space-time is instead derived from the underlying dynamical equations for phase-space degrees of freedom together with a covariance condition. Here, a large class of spherically symmetric models is solved analytically for Schwarzschild-type black hole configurations with generic modification functions, using a variety of slicings that explicitly demonstrate general covariance. For some choices of the modification functions, a new type of signature change is found and evaluated. In contrast to previous versions discussed for instance in models of loop quantum gravity, signature change happens on timelike hypersurfaces in the exterior region of a black hole where it is not covered by a horizon. A large region between the horizon and the signature-change hypersurface may nevertheless be nearly classical, such that the presence of a signature-change boundary around Lorentzian space-time, or a Euclidean wall around the Universe, is consistent with observations provided signature change happens sufficiently far from the black hole.",
+      "eprint": "2312.09217",
+      "archiveprefix": "arXiv",
+      "primaryclass": "gr-qc",
+      "doi": "10.1103/PhysRevD.109.084001",
+      "journal": "Phys. Rev. D",
+      "volume": "109",
+      "number": "8",
+      "pages": "084001",
+      "year": "2024"
+    },
+    "selected": true,
+    "preview": "Signature_change_horizon.png",
+    "links": {
+      "arxiv": "2312.09217",
+      "html": "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.084001",
+      "pdf": "SignatureChangePRD.pdf",
+      "inspirehepId": "2737291"
+    },
+    "details": {
+      "bib": true,
+      "award": {
+        "name": "David Bohm award",
+        "description": "This paper factored in heavily to the combination of the David Bohm award and the Brickwedde award."
+      }
+    }
+  },
+  {
+    "id": "hartmann2024",
+    "bib": {
+      "title": "{Paper on Lorentzian causal dynamical triangulations in two dimensions}",
+      "author": "Hartmann, Dennis",
+      "year": "2023"
+    },
+    "preview": "CDT example.png"
+  },
+  {
+    "id": "BojowaldLT",
+    "bib": {
+      "title": "{Covariant LTB collapse in models of loop quantum gravity}",
+      "author": "Bojowald, Martin and Duque, Erick I. and Hartmann, Dennis",
+      "abstract": "Models of gravitational collapse provide important means to test whether non-classical space-time effects motivated for instance by quantum gravity can be realized in generic ways in physically relevant situations. Here, a detailed analysis of marginally bound Lemaitre-Tolman-Bondi space-times is given in emergent modified gravity, which in particular includes a covariant formulation of holonomy modifications usually considered in models of loop quantum gravity. As a result, generic collapse in this setting is shown to imply a physical singularity that removes the bouncing behavior seen in vacuum space-times with the same type of modifications.",
+      "eprint": "2412.18054",
+      "arxiv": "2412.18054",
+      "archiveprefix": "arXiv",
+      "primaryclass": "gr-qc",
+      "doi": "https://doi.org/10.48550/arXiv.2412.18054",
+      "journal": "arXiv",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "year": "2024"
+    },
+    "selected": true,
+    "links": {
+      "html": "https://arxiv.org/abs/2412.18054",
+      "pdf": "2412.18054v1.pdf",
+      "inspirehepId": "2862682"
+    },
+    "details": {
+      "bib": true
+    }
+  },
+  {
+    "id": "hartmann2024c",
+    "bib": {
+      "title": "{Critical scalar field collapse - in progress}",
+      "author": "Hartmann, Dennis",
+      "year": "2023"
+    }
+  },
+  {
+    "id": "hartmann2024d",
+    "bib": {
+      "title": "{ASQG - needs a little more work :D}",
+      "author": "Hartmann, Dennis",
+      "year": "2023"
+    }
+  }
+]
