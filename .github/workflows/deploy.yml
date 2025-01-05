@@ -33,7 +33,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build
-        uses: withastro/actions@v3
+        uses: withastro/action@v3
         with:
           node-version: 20
   deploy:
