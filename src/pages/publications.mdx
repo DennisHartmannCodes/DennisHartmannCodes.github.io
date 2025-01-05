@@ -1,0 +1,11 @@
+---
+layout: ../layouts/Layout.astro
+route: /publications
+title: Publications
+navOrder: 2
+---
+
+import papers from "../papers.json";
+import Publications from "../components/Publications.astro";
+
+<Publications papers={papers} />

@@ -1,0 +1,18 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<details class="group/details rounded-lg bg-layer-2 pb-1 pl-3 pr-3 pt-1">
+  <summary
+    class='flex cursor-pointer select-none items-center text-lg marker:hidden marker:content-[""]'
+  >
+    <Icon
+      name="lucide:chevron-right"
+      class="mr-2 size-8 transition-transform group-open/details:rotate-90"
+    />
+    <slot name="summary" />
+  </summary>
+  <div class="p-2">
+    <slot />
+  </div>
+</details>
