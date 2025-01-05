@@ -9,5 +9,4 @@ import icon from "astro-icon";
 export default defineConfig({
   integrations: [mdx(), tailwind(), icon()],
   site: "https://DennisHartmannCodes.github.io",
-  base: "DennisHartmannCodes.github.io",
 });
