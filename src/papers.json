@@ -32,34 +32,26 @@
     }
   },
   {
-    "id": "hartmann2024",
-    "bib": {
-      "title": "{Paper on Lorentzian causal dynamical triangulations in two dimensions}",
-      "author": "Hartmann, Dennis",
-      "year": "2023"
-    },
-    "preview": "CDT example.png"
-  },
-  {
     "id": "BojowaldLT",
     "bib": {
-      "title": "{Covariant LTB collapse in models of loop quantum gravity}",
+      "title": "{Covariant Lemaitre-Tolman-Bondi collapse in models of loop quantum gravity}",
       "author": "Bojowald, Martin and Duque, Erick I. and Hartmann, Dennis",
       "abstract": "Models of gravitational collapse provide important means to test whether non-classical space-time effects motivated for instance by quantum gravity can be realized in generic ways in physically relevant situations. Here, a detailed analysis of marginally bound Lemaitre-Tolman-Bondi space-times is given in emergent modified gravity, which in particular includes a covariant formulation of holonomy modifications usually considered in models of loop quantum gravity. As a result, generic collapse in this setting is shown to imply a physical singularity that removes the bouncing behavior seen in vacuum space-times with the same type of modifications.",
       "eprint": "2412.18054",
       "arxiv": "2412.18054",
       "archiveprefix": "arXiv",
       "primaryclass": "gr-qc",
-      "doi": "https://doi.org/10.48550/arXiv.2412.18054",
-      "journal": "arXiv",
-      "volume": "",
-      "number": "",
-      "pages": "",
-      "year": "2024"
+      "doi": "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.064002",
+      "journal": "Phys. Rev. D",
+      "volume": "111",
+      "number": "6",
+      "pages": "064002",
+      "year": "2025"
     },
     "selected": true,
     "links": {
-      "html": "https://arxiv.org/abs/2412.18054",
+      "arxiv": "2412.18054",
+      "html": "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.064002",
       "pdf": "2412.18054v1.pdf",
       "inspirehepId": "2862682"
     },
@@ -72,15 +64,7 @@
     "bib": {
       "title": "{Critical scalar field collapse - in progress}",
       "author": "Hartmann, Dennis",
-      "year": "2023"
-    }
-  },
-  {
-    "id": "hartmann2024d",
-    "bib": {
-      "title": "{ASQG - needs a little more work :D}",
-      "author": "Hartmann, Dennis",
-      "year": "2023"
+      "year": "202"
     }
   }
 ]
