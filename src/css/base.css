@@ -2,6 +2,10 @@ a {
   color: var(--link);
 }
 
+:root{
+  font-size: 30px;
+}
+
 a:hover {
   text-decoration: underline;
 }
