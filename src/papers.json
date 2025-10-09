@@ -46,7 +46,7 @@
       "volume": "111",
       "number": "6",
       "pages": "064002",
-      "year": "2025"
+      "year": "2024"
     },
     "selected": true,
     "links": {
@@ -60,11 +60,149 @@
     }
   },
   {
-    "id": "hartmann2024c",
+    "id": "BlackCatMech",
     "bib": {
-      "title": "{Critical scalar field collapse - in progress}",
-      "author": "Hartmann, Dennis",
-      "year": "202"
+      "author" : "Mitchell Wages, Laurel ONeill, Abraham D. Falcone, Joseph M. Colosimo, et al.",
+      "title" : "{Mechanical design and implementation of the BlackCAT payload}",
+      "abstract" : "The BlackCAT mission is a 6U CubeSat that will monitor the sky for X-ray transient events. This mission is scheduled to launch during the end of 2025 to the beginning of 2026. Final assembly, spacecraft-payload integration, and testing took place during Q1-Q2 2025. The BlackCAT payload is an X-ray coded aperture telescope consisting of a coded aperture mask, a focal plane array (FPA), a detector module (DM) and the Payload Interface Board (PIB). The PIB is an in-house designed electronics board that provides an interface between the payload and spacecraft bus while providing power and control to the payload. The DM acts as a housing unit for the payload, a mechanical interface to the spacecraft, and a shield from off-axis X-rays. The FPA is made of four 550 × 550-pixel Speedster-EXD X-ray hybrid CMOS detectors (HCDs). The coded aperture mask is a nickel mesh with a gold coating and has a random pattern of opened and closed cells, allowing ∼40% X-ray transmission. The mask and FPA have both thermal and mechanical requirements that must be met to function optimally. The 6U CubeSat form factor constrains volume and mass and drives design choices for the payload. We discuss mechanical design of the payload, as well as considerations for the assembly of the payload and integration into the satellite bus. ",
+      "volume" :  "13625",
+      "booktitle" : "UV, X-Ray, and Gamma-Ray Space Instrumentation for Astronomy XXIV",
+      "editor" : "Oswald H. Siegmund and Keri Hoadley",
+      "organization" : "International Society for Optics and Photonics",
+      "publisher" : "SPIE",
+      "pages": "1362512",
+      "keywords" : "CubeSat, Hybrid CMOS, Structures, X-ray Transient Events, Mechanical Design, CubeSat Instruments",
+      "year" : "2025",
+      "journal" : "SPIE",
+      "doi" : "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13625/1362512/Mechanical-design-and-implementation-of-the-BlackCAT-payload/10.1117/12.3065710.short",
+      "URL" : "https://doi.org/10.1117/12.3065710"
+      },
+      "details": {
+        "bib": true
+      },
+      "links": {
+        "html": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13625/1362512/Mechanical-design-and-implementation-of-the-BlackCAT-payload/10.1117/12.3065710.short"
+      }
+    },
+  {
+    "id": "BlackCatAbe",
+    "bib": {
+      "author" : "Abraham D. Falcone, Mitchell Wages, Joseph M. Colosimo, et al.",
+      "title" : "{The BlackCAT CubeSat: a soft x-ray coded aperture telescope}",
+      "abstract" : "BlackCAT is an X-ray coded-aperture-telescope on a 6U CubeSat platform that is expected to launch in 2025. It is designed for observations of X-ray sources and new transients in the 0.5–20 keV band. The instrument will have a wide field of view (0.85 steradian) and be capable of catching gamma ray bursts from the distant universe, galactic transients, flares from blazars, and monitoring the X-ray sky. In addition to the primary high-redshift GRB science, BlackCAT will monitor known source variability and search for rare and exciting new events including gravitational-wave X-ray counterparts, magnetar flares, supernova shock breakouts, and tidal disruption events. The mission will thus function as a multi-wavelength/messenger complement to present and future facilities, while providing rapid notifications. Silicon X-ray hybrid CMOS detectors will form the focal plane array. In addition to carrying out its science programs, BlackCAT will also serve as a pathfinder for future economical sky monitoring networks. An overview of mission design, science, and status will be presented.",
+      "volume" :  "136250E",
+      "booktitle" : "UV, X-Ray, and Gamma-Ray Space Instrumentation for Astronomy XXIV",
+      "editor" : "Oswald H. Siegmund and Keri Hoadley",
+      "organization" : "International Society for Optics and Photonics",
+      "publisher" : "SPIE",
+      "pages": "1362512",
+      "keywords" : "CubeSat, Hybrid CMOS, Structures, X-ray Transient Events, Mechanical Design, CubeSat Instruments",
+      "year" : "2025",
+      "journal" : "SPIE",
+      "doi" : "10.1117/12.3065703",
+      "URL" : "https://doi.org/10.1117/12.3065703"
+      },
+      "details": {
+        "bib": true
+      },
+      "links": {
+        "html": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13625/136250E/The-BlackCAT-CubeSat--a-soft-x-ray-coded-aperture/10.1117/12.3065703.short"
+      }
+    },
+  {
+    "id": "BlackCatCal",
+    "bib": {
+      "author" : "Timothy R. Emeigh, Abraham D. Falcone, Joseph M. Colosimo, Mitchell Wages, Lukas R. Stone, Kadri M. Nizam, David M. Palmer, Zachary Catlin, Md. Arman Hossen, William A. Bevidas Jr., Dennis Hartmann, Laurel O'Neill, et al.",
+      "title" : "{Calibration measurements for the BlackCAT CubeSat x-ray coded aperture telescope}",
+      "abstract" : "BlackCAT is a 6U CubeSat mission scheduled for launch in December 2025. Designed for X-ray sky monitoring and observations of bright X-ray sources in the 0.5–20 keV band, the instrument will use its wide field of view and arcminute-scale localization to detect high-redshift gamma ray bursts (GRBs) and other X-ray transients. The mission will send rapid alerts of these detections, enabling prompt follow-up from other ground- and space-based observatories. The science instrument is a coded aperture telescope with a gold-plated nickel coded mask and a focal plane of four Speedster-EXD550 event-driven X-ray hybrid CMOS detectors (HCDs). We describe our methodology for the calibration of the detectors and the assembled instrument and the results of these measurements. We also briefly discuss plans for in-flight calibration and commissioning to confirm these values post-launch.",
+      "volume" :  "136251R",
+      "booktitle" : "UV, X-Ray, and Gamma-Ray Space Instrumentation for Astronomy XXIV",
+      "editor" : "Oswald H. Siegmund and Keri Hoadley",
+      "organization" : "International Society for Optics and Photonics",
+      "publisher" : "SPIE",
+      "keywords" : "CubeSat, Hybrid CMOS, Structures, X-ray Transient Events, Mechanical Design, CubeSat Instruments",
+      "year" : "2025",
+      "journal" : "SPIE",
+      "doi" : "https://doi.org/10.1117/12.3065260",
+      "URL" : "https://doi.org/10.1117/12.3065260"
+      },
+      "details": {
+        "bib": true
+      },
+      "links": {
+        "html": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13625/136251R/Calibration-measurements-for-the-BlackCAT-CubeSat-x-ray-coded-aperture/10.1117/12.3065260.short"
+      }
+    },
+  {
+    "id": "BlackCatRTN",
+    "bib": {
+      "author" : "William A. Bevidas Jr., Kadri M. Nizam, Abraham D. Falcone, Joseph M. Colosimo, Timothy Emeigh, et al.",
+      "title" : "{Detection of random telegraph noise in hybrid CMOS detectors}",
+      "abstract" : "Hybrid CMOS detectors (HCDs) are known to be impacted by random telegraph noise (RTN), which is a type of noise that can reduce the performance of CMOS sensors. It can be caused by charge traps in the MOSFET amplifiers, which can cause major deviations in a pixel’s output. We use a relatively mature H2RG X-ray HCD to find the presence and characteristics of RTN and compare it with that of the Speedster-EXD550. We have identified a higher percentage of pixels with RTN when the H2RG X-ray HCD is operated at 140 K compared to when the detector is operated at 160 K. The percentage of RTN in the Speedster-EXD550 is significantly more than in the X-ray H2RG, verifying the difference between two different HCDs. Measurement techniques were used to obtain these values and can be applied to future hybrid CMOS detectors.",
+      "volume" :  "136251G",
+      "booktitle" : "UV, X-Ray, and Gamma-Ray Space Instrumentation for Astronomy XXIV",
+      "editor" : "Oswald H. Siegmund and Keri Hoadley",
+      "organization" : "International Society for Optics and Photonics",
+      "publisher" : "SPIE",
+      "keywords" : "CubeSat, Hybrid CMOS, Structures, X-ray Transient Events, Mechanical Design, CubeSat Instruments",
+      "year" : "2025",
+      "journal" : "SPIE",
+      "doi" : "https://doi.org/10.1117/12.3065492",
+      "URL" : "https://doi.org/10.1117/12.3065492"
+      },
+      "details": {
+        "bib": true
+      },
+      "links": {
+        "html": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13625/136251G/Detection-of-random-telegraph-noise-in-hybrid-CMOS-detectors/10.1117/12.3065492.short"
+      }
+    },
+  {
+    "id": "BlackCatQE",
+    "bib": {
+      "author" : "Md. Arman Hossen, Joseph M. Colosimo, Abraham D. Falcone, Lukas R. Stone, Timothy Emeigh, Mitchell Wages, et al.",
+      "title" : "{Quantum efficiency measurements of the Speedster-EXD550 hybrid CMOS detectors at the Mn Kα and Kβ energies}",
+      "abstract" : "We present quantum efficiency (QE) measurements of the Speedster-EXD550 X-ray hybrid CMOS detectors across the soft X-ray energy range. These QE measurements were carried out in Penn State’s 47-meter Xray beamline as a part of the BlackCAT CubeSat calibration campaign. The QE of the Speedster-EXD550 detector was measured by using a gas-flow proportional counter as a reference detector. QE data were collected in full-frame and event-driven readout modes using the optimized flight settings at a temperature of 233 K. Hybrid CMOS detectors with high QE offer high sensitivity, which can be used to observe faint and low-count astrophysical sources and can be a good candidate for future X-ray missions to observe GRBs and X-ray transients. We present measurements of the QE at Mn Kα/Kβ energies (i.e., 5.9 and 6.5 keV) and discuss the effective QE achieved by these detectors along with the impact of the noise.",
+      "volume" :  "136251W",
+      "booktitle" : "UV, X-Ray, and Gamma-Ray Space Instrumentation for Astronomy XXIV",
+      "editor" : "Oswald H. Siegmund and Keri Hoadley",
+      "organization" : "International Society for Optics and Photonics",
+      "publisher" : "SPIE",
+      "keywords" : "CubeSat, Hybrid CMOS, Structures, X-ray Transient Events, Mechanical Design, CubeSat Instruments",
+      "year" : "2025",
+      "journal" : "SPIE",
+      "doi" : "https://doi.org/10.1117/12.3065706",
+      "URL" : "https://doi.org/10.1117/12.3065706"
+      },
+      "details": {
+        "bib": true
+      },
+      "links": {
+        "html": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13625/136250W/Quantum-efficiency-measurements-of-the-Speedster-EXD550-hybrid-CMOS-detectors/10.1117/12.3065706.short"
+      }
+    },
+  {
+    "id": "BlackCatSmallPix",
+    "bib": {
+      "author" : "Lukas R. Stone, Abraham D. Falcone, Joseph M. Colosimo, Mitchell Wages, Timothy Emeigh, Kadri M. Nizam, Md. Arman Hossen, Laurel O'Neill, et al.",
+      "title" : "{Status of testing and characterization of a low-noise small-pixel hybrid CMOS detector}",
+      "abstract" : "The Pennsylvania State University High-Energy Astrophysics Detector and Instrumentation Lab, in collaboration with Teledyne Imaging Sensors (TIS), has developed a next-generation small-pixel soft X-ray hybrid CMOS detector (HCD). The Small-Pixel1024 is an HCD with a 1024x1024 grid of 12.5-micron pitch pixels, featuring a high-gain capacitive transimpedance amplifier and in-pixel correlated double sampling. The Small-Pixel1024 has full-frame readout speeds of up to 149 frames/s and readout rates in excess of 1 kHz in windowed mode. Two separate pixel designs were developed using different charge-injection schemes to restore pixel full-well post pixel reset, allowing for X-ray sensitivity up to 20 keV. Here, we report on the methods and recent results for the characterization of the Small-Pixel1024 dark current, read noise, gain variation, and energy resolution, including a comparison between the two pixel types. Finally, we report on the development efforts between Penn State and Teledyne on a new event-driven small-pixel HCD.",
+      "volume" :  "136251",
+      "booktitle" : "UV, X-Ray, and Gamma-Ray Space Instrumentation for Astronomy XXIV",
+      "editor" : "Oswald H. Siegmund and Keri Hoadley",
+      "organization" : "International Society for Optics and Photonics",
+      "publisher" : "SPIE",
+      "keywords" : "CubeSat, Hybrid CMOS, Structures, X-ray Transient Events, Mechanical Design, CubeSat Instruments",
+      "year" : "2025",
+      "journal" : "SPIE",
+      "doi" : "https://doi.org/10.1117/12.3065485",
+      "URL" : "https://doi.org/10.1117/12.3065485"
+      },
+      "details": {
+        "bib": true
+      },
+      "links": {
+        "html": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13625/1362520/Status-of-testing-and-characterization-of-a-low-noise-small/10.1117/12.3065485.short"
+      }
     }
-  }
 ]
